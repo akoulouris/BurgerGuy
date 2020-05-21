@@ -1,0 +1,104 @@
+html, body  {
+  margin:0;
+  padding: 0;
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   cursor: url(../images/burger.png), auto; 
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eye {
+  border-radius: 95% 0;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top:46%;
+  left:38%;
+  transform: translate(-50%,-50%) rotate(45deg);
+  background: url(../images/eye-back.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+
+.eyeRight{
+  margin-left: 105px;
+  top: 46.4%;
+}
+
+.iris {
+  background-color: #473123;
+  border-radius: 40px;
+  box-shadow: inset 0 0 18px rgba(0, 0, 0, .5), inset 0 0 30px #473123;
+  height: 17px;
+  width: 17px;
+  opacity: .9;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+ .pupil {
+  background: linear-gradient(45deg, #333, #000);
+  border-radius: 20px;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, .8);
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+} 
+
+.shut{
+  width:40px;
+  height:23px;
+  border-radius: 36px;
+  background: url(../images/eye-back.png);
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:  translate(-50%,-50%)  rotate(-45deg);
+}
+.img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height:100%;
+  height: 718px;
+}
+.img-loader-wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+.img-loader{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height:100%;
+}
+.loader-wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+   min-height: 100%;
+  width: 100%; 
+}

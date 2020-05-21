@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BurgerGuy</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="MobileOptimized" content="320">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>  
+        <script>
+            var iris= document.getElementsByClassName("iris");
+             document.onmousemove=function() {
+                var x = event.clientX * 100 / window.innerWidth + "%"
+                var y = event.clientY * 100 / window.innerHeight + "%"
+                  
+                for (var i=0;i<2;i++)
+                { 
+                    iris[i].style.left = x;
+                    iris[i].style.top = y;
+                    iris[i].style.transform = "translate(-"+x+",-"+y+")"                
+                }
+            }   
+            var xSeconds = 1500; // 1.5 second
+            $(window).on("load",function(){
+                setTimeout(function() {
+                      $(".loader-wrapper").fadeOut("slow").delay(30000);
+                 }, xSeconds);
+            });      
+        </script>   
+                 <div class="center">
+                    <img class="img"  src="./images/marco1.png">
+                    <div class='eye'>    
+                        <div class="shut">
+                            <div class="iris">
+                                 <div class="pupil ">
+
+                                 </div> 
+                            </div> 
+                        </div>                                             
+                    </div>
+                    <div class='eye eyeRight'>    
+                        <div class="shut">
+                            <div class="iris">
+                                <div class="pupil ">
+
+                                </div> 
+                            </div> 
+                        </div>                  
+                           
+                    </div>
+                </div>       
+                <div class="loader-wrapper">                      
+                    <div class="img-loader-wrapper">
+                        <img class="img-loader"  src="./images/forever-burger.gif">
+                    </div>       
+               </div>  
+    </body>
+</html>	
