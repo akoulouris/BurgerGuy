@@ -4,7 +4,7 @@
 
 ## Project Summary
 
-Most of us have at least one friend addicted to burgers. So that kind of my friend became an inspiration for me to create that fun web site.  Keep folowing the burger guys…
+Most of us have at least one friend addicted to burgers. So that kind of my friend became an inspiration for me to create that fun web site.  Keep following the burger guys…
 
 # Tools Used 
 
