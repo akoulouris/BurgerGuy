@@ -9,3 +9,4 @@ Most of us have at least one friend addicted to burgers. So that kind of my frie
 # Tools Used 
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
