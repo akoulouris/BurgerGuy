@@ -1,6 +1,6 @@
 # BurgerGuy
 
-<img src="https://raw.githubusercontent.com/akoulouris/BurgerGuy/master/Screenshots/BurgerGuy.gif" width="400" alt="image of the landscape mode">
+<img src="https://raw.githubusercontent.com/akoulouris/BurgerGuy/master/Screenshots/BurgerGuy.gif" width="500" alt="image of the landscape mode">
 
 ## Project Summary
 
